@@ -1,0 +1,272 @@
+:root {
+  --brown-light: #DDCB9F;
+  --brown-medium: #C8A880;
+  --brown-dark: #8B554C;
+}
+
+body{
+  background-color: #E2D4CE
+  }
+
+.box-canvas{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 230px;
+  height:600px;
+}
+
+.head {
+  position: absolute;
+  left: 55px;
+  top: 0px;
+  width: 120px;
+  height: 130px;
+  background: black;
+  border-radius: 70% 70% 90% 90%;
+  border-bottom: 2px #17110E;
+}
+
+
+.ear {
+  position: absolute;
+  top: 15px;
+  width: 60px;
+  height: 120px;
+
+}
+
+.ear.left {
+  left: 20px;
+  clip-path: polygon(30% 100%, 0 0, 100% 0);
+  transform: rotate(-4deg);
+}
+
+.ear.right {
+  right: 20px;
+  clip-path: polygon(70% 100%, 0 0, 100% 0);
+   transform: rotate(4deg);
+}
+
+.ear::before {
+  content: '';
+  position: absolute;
+  background: black;
+  width: 100px;
+  height: 95px;
+}
+
+.ear.left::before {
+  left: 0px;
+  border-radius: 50% 30% 50% 50%;
+}
+
+.ear.right::before {
+  right: 0px;
+  border-radius: 30% 50% 50% 50%;
+}
+
+.snoot {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.snoot::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  width: 15px;
+  height: 12px;
+  box-shadow: 1px 3px 0 black;
+  border-radius: 50%;
+}
+
+.snoot::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  width: 15px;
+  height: 12px;
+  box-shadow: -1px 3px 0 black;
+  border-radius: 0 0 50% 50%;
+}
+
+.oval {
+  height: 40px;
+  width: 65px;
+  background-color: #B25819;
+  border-radius: 50%;
+  top: 67px;
+  position: absolute;
+  right: 28px;
+}
+
+.oval2 {
+  height: 5px;
+  width: 5px;
+  background-color: #B25819;
+  border-radius: 50%;
+  top: 20px;
+  position: absolute;
+  right: 40px;
+}
+
+.oval3 {
+  height: 5px;
+  width: 5px;
+  background-color: #B25819;
+  border-radius: 50%;
+  top: 20px;
+  position: absolute;
+  left: 45px;
+}
+
+.eye {
+  position: absolute;
+  top: 30px;
+  background: black;
+  border: 5px solid #B25819;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+
+}
+
+.eye.left {
+  left: 25px;
+}
+
+.eye.right {
+  right: 25px;
+}
+
+.eye::after {
+  content: '';
+  position: absolute;
+  right: 3px;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  animation: squeeze 1.4s infinite;
+}
+
+@keyframes squeeze {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: scale(1.4, 0.3);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+
+.tongue {
+  position: relative;
+  width: 10px;
+  height: 8px;
+  background: #E74E60;
+  left: 46%;
+  border-radius: 0 0 50% 50%;
+  top: 98px;
+  transition: 300ms;
+  animation: grow .2s infinite alternate;
+}
+
+@keyframes grow {
+  20% {
+    animation-timing-function: ease-in;
+  }
+  100% {
+    height: 15px;
+  }
+}
+
+.body {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  width: 110px;
+  height: 85px;
+  background: black;
+  border-radius: 50% 50% 20% 20%;
+}
+
+.paw {
+  position: absolute;
+  top: 155px;
+  width: 50px;
+  height: 35px;
+  background: black;
+  box-shadow: 0 -5px 0 #17110E;
+  border-radius: 50% 50% 30% 30%;
+}
+
+.paw.left {
+  left: 40px;
+}
+
+.paw.right {
+  right: 40px;
+}
+
+
+.tail {
+  background: black;
+  width: 14px;
+  height: 40px;
+  position: absolute;
+  z-index: -1;
+  left: 112px;
+  top: 130px;
+  transform: rotate(30deg);
+  border-radius: 14px;
+  transform-origin: bottom;
+  transition: 300ms;
+  animation: shake .2s infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(40deg);
+  }
+}
+
+.dogcollar {
+  height: 5px;
+  width: 93px;
+  background: #F25427;
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  border-radius: 15%;
+}
+.circle {
+  height: 15px;
+  width: 15px;
+  background-color: #555;
+  border-radius: 50%;
+  background: #CCAF31;
+  position: absolute;
+  left: 53px;
+  top: 116px;
+}

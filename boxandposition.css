@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  box-sizing; border-box;
+}
+
+.boxmodel {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 200px;
+  width: 300px;
+
+}
+
+.box_main {
+  margin: 10px;
+  border: 10px solid black;
+  background-color: red;
+  position: relative;
+  padding: 10px;
+  height: 400px;
+  width: 150px;
+}
+
+.box {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  left: 350px;
+  top: 0px;
+  position: absolute;
+  background-color: yellow;
+}
+
+.box01 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  left: 200px;
+  position: absolute;
+  top: 250px;
+  background-color: blue;
+}
+
+.box02 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 250px;
+  width: 200px;
+  left: 200px;
+  top: 400px;
+  position: absolute;
+  background-color: yellow;
+}
+
+.box03 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 90px;
+  width: 350px;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  background-color: white;
+}
+
+.box04 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  background-color: red;
+}
+
+.box05 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 110px;
+  width: 150px;
+  position: absolute;
+  top: 540px;
+  left: 450px;
+  background-color: blue;
+}
+
+.box06 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  background-color: white;
+}
+
+.box07 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  background-color: blue;
+}
+
+.box08 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 100px;
+  width: 50px;
+  position: absolute;
+  top: 250px;
+  left: 750px;
+  background-color: yellow;
+}
+
+.box09 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 110px;
+  width: 150px;
+  position: absolute;
+  top: 540px;
+  left: 650px;
+  background-color: yellow;
+}

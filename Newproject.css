@@ -1,0 +1,209 @@
+body {
+  background-color: #FFFF;
+      }
+
+body {
+  font-family: loretta, serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-family: loretta, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+    }
+
+
+h1 {
+  font-size: 60px;
+}
+
+.img1 {
+filter: grayscale(100%);
+transition: 1.5s;
+width: 350px;
+border: 5px solid black;
+    }
+
+.img1:hover {
+filter: grayscale(0%);
+transition: 1.5s;
+
+
+    }
+
+.img2 {
+filter: grayscale(100%);
+position: absolute;
+top: 20px;
+left: 20px;
+transition: 1.5s;
+width: 400px;
+left: 50px;
+border: 5px solid black;
+    }
+
+.img2:hover {
+filter: grayscale(0%);
+transition: 1.5s;
+
+    }
+
+.img3 {
+filter: grayscale(100%);
+transition: 1.5s;
+width: 600px;
+border: 5px solid black;
+    }
+
+.img3:hover {
+filter: grayscale(0%);
+transition: 1.5s;
+    }
+
+.img4 {
+filter: grayscale(100%);
+transition: 1.5s;
+width: 400px;
+border: 5px solid black;
+    }
+
+.img4:hover {
+filter: grayscale(0%);
+transition: 1.5s;
+    }
+
+.img5 {
+filter: grayscale(100%);
+transition: 1.5s;
+width: 400px;
+border: 5px solid black;
+      }
+
+.img5:hover {
+filter: grayscale(0%);
+transition: 1.5s;
+      }
+
+      .img6 {
+      filter: grayscale(100%);
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      transition: 1.5s;
+      width: 400px;
+      left: 50px;
+      border: 5px solid black;
+          }
+
+      .img6:hover {
+      filter: grayscale(0%);
+      transition: 1.5s;
+
+          }
+
+
+
+      #draggable {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+      }
+      #draggable2 {
+        position: absolute;
+        top: 900px;
+        left: 120px;
+      }
+      #draggable3{
+        position: absolute;
+        top: 250px;
+        left: 900px;
+      }
+
+      #draggable4{
+        position: absolute;
+        top: 1700px;
+        left: 1000px;
+      }
+
+      #draggable5{
+        position: absolute;
+        top: 850px;
+        left: 1100px;
+      }
+
+      #draggable6{
+        position: absolute;
+        top: 600px;
+        left: 1100px;
+      }
+
+      #draggable7{
+        position: absolute;
+        top: 1800px;
+        left: 550px;
+      }
+
+      #draggable8{
+        position: absolute;
+        top: 1000px;
+        left: 650px;
+
+      }
+
+      #draggable9{
+        position: absolute;
+        top: 2000px;
+        left: 550px;
+      }
+
+      #draggable10{
+        postion: absolute;
+        top: 80px;
+        left: 500px;
+      }
+
+      #draggable11{
+        position: absolute;
+        top: 1440px;
+        left: 1150px;
+      }
+
+      #draggable12{
+        position: absolute;
+        top: 1250px;
+        left: 650px;
+      }
+
+      #draggable13 {
+        position: absolute;
+        top: 1490px;
+        left: 250px;
+      }
+
+      #draggable14 {
+        position: absolute;
+        top: 1650px;
+        left: 50px;
+      }
+
+      {
+      	width: 300px;
+      	height: 155px;
+      	padding: 0em;
+      	x-border: 1px solid #000;
+      	-moz-border-radius: 6px;
+      	-webkit-border-radius: 6px;
+      	border-radius: 6px;
+
+      	margin: auto;
+      	cursor: pointer;
+      	}
+
+.container {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  max-width: 300px;
+
+        }
